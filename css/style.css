@@ -1,0 +1,329 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Da+2&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+/* Tela de login */
+.titulo{
+    font-family: 'Bebas Neue', 'cursive';
+    font-size: 128px;
+    display: flex;
+    margin-top: 10vh;
+    justify-content: center;
+    font-weight: lighter;
+}
+#BemVindo-Texto{
+    font-family: 'Baloo Da 2', cursive;
+    font-size: 36px;
+    margin-left: 23px;
+
+}
+#FaçaLogin-Texto{
+    font-family: 'Baloo Da 2', cursive;
+    font-size: 24px;
+    margin-left: 23px;
+    height: 32px;
+}
+.container-login{
+    background-color: #EEEEEE;
+    margin-left: 23px;
+    margin-top: 60px;
+    width: 86vw;
+    height: 30vh;
+    border-radius: 40px;
+    overflow: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container-email{
+    background-color: #D9D9D9;
+    width: 76vw;
+    height: 7vh;
+    border-radius: 20px;
+    margin-top: 50px;
+    margin-left: 22px;
+    overflow: auto;
+}
+.container-email p{
+    font-family: 'Be Vietnam Pro', sans-serif;
+    opacity: 60%;
+    font-size: 20px;
+    font-weight:bolder;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+.container-senha{
+    background-color: #D9D9D9;
+    width: 76vw;
+    height: 7vh;
+    border-radius: 20px;
+    margin-top: 50px;
+    margin-left: 22px;
+    overflow: auto;
+}
+.container-senha p{
+    font-family: 'Be Vietnam Pro', sans-serif;
+    opacity: 60%;
+    font-size: 20px;
+    font-weight:bolder;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+.botao-entrar{
+    background-color: #717171;
+    width: 86vw;
+    height: 8vh;
+    border-radius: 20px;
+    margin-top: 40px;
+    overflow: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+.botao-entrar p{
+    font-family: 'Be Vietnam Pro', sans-serif;
+    color: #ffffff;
+    font-size: 26px;
+    font-weight: bolder;
+    margin-top: 14px;
+    display: flex;
+    justify-content: center;
+}
+.botao-entrar-adicional{
+    width: 86vw;
+    margin-left: 6vw;
+    display: flex;
+    justify-content: space-between;
+}
+/* Tela de login */
+
+/* Tela de cadastro */
+.titulo-cadastro{
+    font-family: 'Bebas Neue', 'cursive';
+    font-size: 128px;
+    display: flex;
+    margin-top: 10vh;
+    justify-content: center;
+    font-weight: lighter;
+}
+.container-cadastro{
+    background-color: #EEEEEE;
+    margin-left: 23px;
+    width: 86vw;
+    height: 50vh;
+    border-radius: 40px;
+    overflow: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container-cadastro-dentro{
+    background-color: #D9D9D9;
+    width: 76vw;
+    height: 64px;
+    border-radius: 20px;
+    margin-top: 50px;
+    margin-left: 22px;
+    overflow: auto;
+}
+.container-cadastro-dentro p{
+    font-family: 'Be Vietnam Pro', sans-serif;
+    opacity: 60%;
+    font-size: 20px;
+    font-weight:bolder;
+    margin-left: 16px;
+    margin-top: 16px;
+}
+
+.botao-cadastro{
+    background-color: #717171;
+    width: 86vw;
+    height: 67px;
+    border-radius: 20px;
+    margin-top: 40px;
+    overflow: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+.botao-cadastro p{
+    font-family: 'Be Vietnam Pro', sans-serif;
+    color: #ffffff;
+    font-size: 26px;
+    font-weight: bolder;
+    margin-top: 14px;
+    display: flex;
+    justify-content: center;
+}
+
+/* HomePage */
+
+.cabeçario{
+    display: flex;
+    justify-content: space-evenly;
+}
+.barra-pesquisa{
+    display: flex; 
+    background-color: #EFEFEF;
+    width: 230px;
+    height: 45px;
+    margin-top: 38px;
+    margin-bottom: 80px;
+    border-radius: 30px;
+}
+.barra-pesquisa p{
+    margin-top: 10px;
+    margin-left: 7px;
+    font-size: 18px;
+}
+.barra-pesquisa img{
+    width: 20px;
+    height: 20px;
+    margin-top: 10px;
+    margin-left: 14px;
+}
+.icon-conta img{
+    width: 20vw;
+    margin-top: 20px;
+}
+.corpo h1{
+    font-family: 'Playfair Display', serif;
+    font-weight: lighter;
+    margin-left: 3vw;
+}
+.transportes{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-bottom: 80px;
+}
+.caixa-transporte{
+    width: 80px;
+    height: 80px;
+    background-color: #D9D9D9;
+    border-radius: 20px;
+}
+.caixa-transporte img{
+    width: 48px;
+    height: 48px;
+    margin-left: 16px;
+    margin-top: 16px;
+}
+.caixa-carrossel{
+    margin-left: 3vw;
+    width: 100vw;
+    display: flex;
+    overflow-x: auto;
+}
+.carrossel{
+    width: 280px;
+    height: 360px;
+    background-color: #D9D9D9;
+    border-radius: 20px;
+    flex: none;
+    margin-right: 8vw;
+}
+.carrossel img{
+    width: 256px;
+    height: 245px;
+    margin-top: 10px;
+    margin-left: 12px;
+    border-radius: 20px; 
+}
+.carrossel h1{
+    text-align: center;
+    margin-bottom: 18px;
+}
+.baixo-foto{
+    display: flex;
+    justify-content: center;
+    opacity: 60%;
+}
+.baixo-foto img{
+    width: 15px;
+    height: 15px;
+    margin: 0;
+}
+.rodape{
+    width: 380px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.rodape img{
+    opacity: 60%;
+}
+#selecionado{
+    opacity: 100%;
+}
+/* Home Page */
+
+/* Perfil Usuario */
+
+.foto-user-caixa{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #D9D9D9;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+}
+.foto-user-caixa img{
+    margin-top: 10px;
+    width: 180px;
+    height: 180px;
+}
+.caixa-dadosPessoais{
+    background-color: #EEEEEE;
+    width: 100vw;
+    height: 450px;
+    overflow: auto;
+    margin-top: 60px;
+}
+.dados-inserir{
+    background-color: #D9D9D9;
+    width: 90vw;
+    height: 64px;
+    border-radius: 20px;
+    margin-top: 25px;
+    margin-left: 18px;
+    overflow: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.dados-inserir img{
+    opacity: 60%;
+    width: 30px;
+    height: 30px;
+    margin-top: 15px;
+    margin-right: 15px;
+}
+.dados-inserir p{
+    font-family: 'Be Vietnam Pro', sans-serif;
+    opacity: 60%;
+    font-size: 20px;
+    font-weight:bolder;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+.grupo-viajante p{
+    font-size: 32px;
+    margin-top: 20px;
+    text-align: center;
+}
+.grupo-viajante img{
+    width: 110px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
